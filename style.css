@@ -1,0 +1,41 @@
+/* Estilos generales */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("IMG/macos-big-sur.jpg");
+}
+
+.mac-dock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mac-dock ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 16px;
+  background: rgba(83, 83, 83, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.mac-dock ul li {
+  width: 50px;
+  height: 50px;
+  background-color: #666;
+  border-radius: 10px;
+  margin: 10px;
+  transition: 0.3s ease;
+}
+
+.scale-item {
+  transform: scale(1.8);
+}
